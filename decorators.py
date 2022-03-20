@@ -20,3 +20,13 @@ def disassembler(function):
         return rv
 
     return wrapper
+
+
+
+@timer
+def foo(x):
+    return x * 2 
+
+
+if __name__ == '__main__':
+    print(foo(10))
