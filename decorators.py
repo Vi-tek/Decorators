@@ -22,6 +22,7 @@ def disassembler(function):
     return wrapper
 
 
+# TEST
 
 @timer
 def foo(x):
